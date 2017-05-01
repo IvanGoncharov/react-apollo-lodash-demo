@@ -1,6 +1,8 @@
 # Apollo React + GraphQL Lodash demo
 
-This is the simple example of usage GraphQL Lodash with React/Apollo
+This is the simple example of usage GraphQL Lodash with React/Apollo. Here are key elements:
+* [Wrapper function](https://github.com/APIs-guru/react-apollo-lodash-demo/blob/master/src/utils.js) that ties together Apollo React and GraphQL Lodash.
+* [Example](https://github.com/APIs-guru/react-apollo-lodash-demo/blob/master/src/MyComponent.js) of React Component that gets props from GraphQL response transformed with lodash.
 
 ## Installation
 
