@@ -4,7 +4,7 @@ import { gqlLodash } from './utils';
 
 // The data prop, which is provided by the wrapper below contains,
 // a `loading` key while the query is in flight and posts when it is ready
-function MyComponent({data: {loading, peopleToFilms}, ownProps:{selected}}) {
+function MyComponent({data: {loading, peopleToFilms}}) {
   if (loading) return (<div> Loading... </div>);
   let people = Object.keys(peopleToFilms);
   return (
